@@ -1,0 +1,98 @@
+/* Style de la page */
+body{
+    overflow-x:hidden;
+}
+
+/* Style de la partie header */
+.header1{
+    background-color:  rgba(141, 119, 241, 0.993);
+    font-family: 'Yeon Sung', sans-serif;
+    color: rgba(45, 15, 179, 0.993);
+    text-align: center;
+    font-size:12px;
+}
+
+.header2{
+    background-image: url(Img/dice2.jfif);
+    background-size: contain;
+    height: 80px;
+}
+
+.pHeader{
+    height: 10px;
+}
+
+hr{
+    max-width: 200px;
+    color: rgba(179, 15, 97, 0.993);
+}
+
+/* Style de la partie main */
+main{
+    font-family: 'ZCOOL XiaoWei', sans-serif;
+    background-color:rgba(214, 210, 235, 0.993) ;
+    height:285px;
+}
+
+.descriptionJeu{
+    color: rgba(82, 41, 3, 0.993);
+    margin-left: 150px;
+}
+
+.pFirst{
+    text-align: center;
+    color: rgba(45, 15, 179, 0.993);
+    font-size:23px;
+}
+
+.inputPosition{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.résultat{
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Style des images */
+.imgSmiley{
+    width: 20px;
+    height: 20px;
+}
+
+/* Style des inputs */
+.button1{
+    width:130px;
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+    background: rgba(45, 15, 179, 0.993);
+    font-family: 'ZCOOL XiaoWei', sans-serif;
+    font-size:15px;
+    font-weight: bold;
+    color:white;
+}
+
+.button2{
+    width:130px;
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+    background: rgba(141, 140, 143, 0.473);
+    font-family: 'ZCOOL XiaoWei', sans-serif;
+    font-size:15px;
+    font-weight: bold;
+    color:white;
+}
+
+input[type="number"]{
+    width: 60px;
+    height: 25px;
+    border-radius: 5px;
+    border-color:rgba(45, 15, 179, 0.993);
+    text-align: center;
+    font-weight: bold;
+}

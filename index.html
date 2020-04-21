@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <title>Jeu de dé</title>
+    <link rel="shortcut icon" href="Img/dice.jfif">
+    <link href="index.css" rel="stylesheet" type="text/css" />
+    <!-- Liste des polices -->
+    <link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=ZCOOL+XiaoWei&display=swap" rel="stylesheet"> 
+  </head>
+
+  <body>
+    <header>
+      <div class="header1">
+        <p class="pHeader"></p>
+      </div>
+      <div class="header2">
+      </div>
+      <div class="header1">
+          <h1>JEU DE DES : TIRAGE ALEATOIRE</h1>
+          <hr>
+          <h1>DEVINEZ LE TIRAGE !</h1>
+      </div>
+      <div class="header2">
+      </div>
+      <div class="header1">
+        <p class="pHeader"></p>
+      </div>
+    </header>
+
+    <main>
+    <!-- Description du jeu -->
+      <div class="descriptionJeu">
+        <p>Cliquez sur le bouton "Lancer le dé" pour générer aléatoirement un nombre compris entre 1 et 6.</p>
+        <p>Puis devinez le résultat <img class="imgSmiley" src="Img/smiley.jfif" alt="smiley clin d'oeil"></p>
+        <p>BONNE CHANCE <img class="imgSmiley" src="Img/doigts.jfif" alt="chance doigts croisés"><img class="imgSmiley" src="Img/doigts.jfif" alt="chance doigts croisés"><img class="imgSmiley" src="Img/doigts.jfif" alt="chance doigts croisés"></p>
+      </div>
+
+      <p class="pFirst">A vous de jouer !</p>
+
+      <!-- Création des inputs pour lancer le dé et choisir un nombre -->
+      <div class="inputPosition">
+        <input class="button1" type="button" value="Lancer le dé" onclick="valeurDuLancéAléatoire()">
+        <p>&nbsp; &nbsp;Tentez :&nbsp;&nbsp;</p>
+        <input id="choix" type="number" min="1" max="6" required>
+        <p>&nbsp; &nbsp; &nbsp; &nbsp;</p>
+        <input class="button2" id="OK" type="button" value="OK" onclick="résultatDuJeu()" disabled>
+      </div>
+
+      <!-- Création de la partie résultat du jeu -->
+      <div class="résultat">
+        <p id="résultat"></p>
+      </div>
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>
